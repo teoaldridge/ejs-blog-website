@@ -1,0 +1,46 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+/*Viewport*/
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #B97A95 !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.btn{
+  margin-bottom: 6px;
+}
+
+.footer {
+  position:fixed;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #B97A95;
+}
+
+.footer p {
+	padding-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
